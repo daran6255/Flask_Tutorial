@@ -1,0 +1,245 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Flask tutorial",
+    "collectionId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+    "dateExported": "2025-06-10T04:07:05.890Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ec70f807-a6c5-4b8d-9cbb-93de6e2174f0",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "Post item",
+            "url": "http://127.0.0.1:5000/items/create",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-06-09T03:37:23.504Z",
+            "modified": "2025-06-09T10:28:33.521Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "python",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "price",
+                    "value": "20",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"vivek\",\n  \"price\": 8\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "b9c90f1e-c6ad-453b-8fa2-94b9db546fe2",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "get_by_id",
+            "url": "http://127.0.0.1:5000/items/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-06-09T03:41:29.702Z",
+            "modified": "2025-06-09T10:09:32.939Z",
+            "headers": []
+        },
+        {
+            "_id": "c938b244-9837-4e0e-b126-489f4bbaa3ee",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "delete_by_id",
+            "url": "http://127.0.0.1:5000/items/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-06-09T03:57:27.640Z",
+            "modified": "2025-06-09T03:57:27.640Z",
+            "headers": []
+        },
+        {
+            "_id": "213467e0-c8ca-4bf9-9633-48ab396cc2c6",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "patch_by_id",
+            "url": "http://127.0.0.1:5000/items/1",
+            "method": "PATCH",
+            "sortNum": 50000,
+            "created": "2025-06-09T04:11:19.072Z",
+            "modified": "2025-06-09T10:33:13.755Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Mango\",\n  \"price\": 33\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "67ee78fe-7301-4b5c-9478-ea87338de548",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "put_by_id",
+            "url": "http://127.0.0.1:5000/items/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2025-06-09T04:13:13.158Z",
+            "modified": "2025-06-09T10:38:32.500Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Mangoo\",\n  \"price\": 38\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "0e63252b-aec5-4cb7-8475-1e5081bf0e6b",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "abort_error_handiling",
+            "url": "http://127.0.0.1:5000/items/3",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-06-09T05:56:35.737Z",
+            "modified": "2025-06-09T05:56:35.737Z",
+            "headers": []
+        },
+        {
+            "_id": "36a42e82-62ac-4555-a46e-50ebe02ff7e8",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "try-catch",
+            "url": "http://127.0.0.1:5000/divide",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2025-06-09T06:03:51.303Z",
+            "modified": "2025-06-09T10:48:35.232Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"x\": 10,\n  \"y\": 1\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "95efcadd-6370-4848-9c09-775548d42ffd",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "CRUD_create",
+            "url": "http://127.0.0.1:5000/users",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2025-06-09T06:53:07.838Z",
+            "modified": "2025-06-09T06:53:07.838Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Dharanidaran\",\n  \"email\": \"test@winvinaya.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a2b44084-9918-49b1-bdf8-3bc897d19432",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "CRUD_Read_all",
+            "url": "http://127.0.0.1:5000/users",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2025-06-09T06:55:10.600Z",
+            "modified": "2025-06-09T06:55:10.600Z",
+            "headers": []
+        },
+        {
+            "_id": "7d1bf09c-76f0-4abd-b714-b4e86c983aeb",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "CRUD_Read_by_id",
+            "url": "http://127.0.0.1:5000/users/1",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2025-06-09T06:55:51.946Z",
+            "modified": "2025-06-09T06:55:51.946Z",
+            "headers": []
+        },
+        {
+            "_id": "8172fdc8-c23e-401f-94a2-3d8529d73245",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "CRUD_Update_by_id",
+            "url": "http://127.0.0.1:5000/users/1",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2025-06-09T06:58:09.394Z",
+            "modified": "2025-06-09T06:58:09.394Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Swetha\",\n  \"email\": \"test@winvinaya.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c672ea36-8124-42b3-b1f5-0afea47ba7ea",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "CRUD_Delete_by_id",
+            "url": "http://127.0.0.1:5000/users/1",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2025-06-09T06:59:29.334Z",
+            "modified": "2025-06-09T06:59:29.334Z",
+            "headers": []
+        },
+        {
+            "_id": "0c5d2fe4-5048-4f55-b949-166521516a2d",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "CRUD_Delete_all",
+            "url": "http://127.0.0.1:5000/users",
+            "method": "DELETE",
+            "sortNum": 140000,
+            "created": "2025-06-09T07:02:03.709Z",
+            "modified": "2025-06-09T07:02:03.709Z",
+            "headers": []
+        },
+        {
+            "_id": "32ed20bb-fd56-401b-ac39-678c8f202050",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "CRUD_Create_multiple",
+            "url": "http://127.0.0.1:5000/users/multiple",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2025-06-09T07:04:54.721Z",
+            "modified": "2025-06-09T07:04:54.721Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "[\r\n  { \"name\": \"Alice\", \"email\": \"alice@example.com\" },\r\n  { \"name\": \"Bob\", \"email\": \"bob@example.com\" },\r\n  { \"name\": \"Charlie\", \"email\": \"charlie@example.com\" }\r\n]\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "da487218-2500-4751-98c2-b51a42761049",
+            "colId": "e668704a-8921-4425-9eb6-cce97ef86e8e",
+            "containerId": "",
+            "name": "JWT_Login",
+            "url": "http://127.0.0.1:5000/login",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2025-06-09T07:28:27.429Z",
+            "modified": "2025-06-09T07:28:27.429Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"admin\": \"12345\",\n    \"user\": \"abcd\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "NgHQHmICIel3DuqhFe4UVifExGp5MBs6aCXepamQg8i5JgMFJP96Cz_B5C6tfs9X5nzLqYMsLwNrClbWuNkkrA"
+}
