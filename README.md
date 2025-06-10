@@ -56,8 +56,10 @@ Covers:
 - Models, relationships, and migrations
 
 Example URI used:
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:12345@localhost:5432/test'
 
+```bash
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:12345@localhost:5432/test'
+```
 
 ## 🔁 CRUD Operations
 
